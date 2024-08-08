@@ -65,3 +65,40 @@ button{
     color: white;
     font-size: 12px;
 }
+
+
+@media only screen and (max-width: 480px) {
+    body {
+      width: 100%;
+      height: 100vh;
+    }
+    .calculater{
+        width: 100%;
+        height: 100vh;
+        padding: 0px;
+        text-align: center;
+    }
+    input{
+        width: 320px;
+        border: none;
+        padding: 15px;
+        background: transparent;
+        box-shadow: 0px 4px 16px rgba(84, 84, 84, 0.2);
+        font-size: 25px;
+        text-align: right;
+        cursor: pointer;
+        color: #fff;
+    }
+    button{
+        border: none;
+        width: 55px;
+        height: 50px;
+        margin: 12px;
+        border-radius: 50%;
+        background: transparent;
+        color: #ffffff;
+        font-size: 20px;
+        box-shadow: -8px -9px 15px rgba(255, 255, 255, 0.2);
+        cursor: pointer;
+    }
+}
